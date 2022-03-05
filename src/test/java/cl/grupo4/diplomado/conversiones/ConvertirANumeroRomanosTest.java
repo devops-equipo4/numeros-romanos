@@ -1,4 +1,4 @@
-package cl.grupo4.diplomado.conversion;
+package cl.grupo4.diplomado.conversiones;
 
 import cl.grupo4.diplomado.conversiones.ConvertirANumerosRomanos;
 import org.junit.Test;
@@ -21,5 +21,13 @@ public class ConvertirANumeroRomanosTest {
     @Test
     public void centenasTest() {
         assertEquals(convertirANumerosRomanos.conversion(200),"CC");
+    }
+    @Test
+    public void milTest() {
+        assertEquals(convertirANumerosRomanos.conversion(1000),"M");
+    }
+    @Test
+    public void milFailTest() {
+        assertEquals(convertirANumerosRomanos.conversion(999),"M");
     }
 }
