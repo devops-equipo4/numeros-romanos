@@ -2,7 +2,7 @@ package cl.grupo4.diplomado.conversiones;
 
 public class ConvertirANumerosRomanos {
 
-    public String convertirANumerosRomanos(int numero) {
+    public String conversion(int numero) {
         int i, miles, centenas, decenas, unidades;
         String romano = "";
 

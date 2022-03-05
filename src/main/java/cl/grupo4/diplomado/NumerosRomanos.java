@@ -14,6 +14,6 @@ public class NumerosRomanos {
             N = sc.nextInt();
         } while (N < 1 || N > 3999);
         ConvertirANumerosRomanos convertirANumerosRomanos = new ConvertirANumerosRomanos();
-        System.out.println(N + " en numeros romanos -> " + convertirANumerosRomanos.convertirANumerosRomanos(N));
+        System.out.println(N + " en numeros romanos -> " + convertirANumerosRomanos.conversion(N));
     }
 }
